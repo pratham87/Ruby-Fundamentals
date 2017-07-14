@@ -1,7 +1,7 @@
 require 'fileutils'
 
 # Moving file
-#FileUtils.mv('/Users/Prathamesh/Desktop/Ruby/test.txt', '/Users/Prathamesh/Desktop/')
+FileUtils.mv(Dir.home+ '/Desktop/Ruby/test.txt', Dir.home+ '/Desktop/')
 
 
 # Getting data from user and add them.
