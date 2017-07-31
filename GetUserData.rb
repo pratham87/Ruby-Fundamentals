@@ -1,9 +1,3 @@
-require 'fileutils'
-
-# Moving file
-FileUtils.mv(Dir.home+ '/Desktop/Ruby/test.txt', Dir.home+ '/Desktop/')
-
-
 # Getting data from user and add them.
 print "Enter first number: "
 first_num = gets.to_i  #convert string to int  
